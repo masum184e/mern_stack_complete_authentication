@@ -1,0 +1,6 @@
+/*.welcome_box{}*/
+.welcome_box>h1{
+  text-align: center;
+  background-color: rgba(30,35,40,1);
+  color: white;
+}

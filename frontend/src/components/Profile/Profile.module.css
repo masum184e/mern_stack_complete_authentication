@@ -1,0 +1,40 @@
+.profile{
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 100%;
+  background-color: #263038;
+  min-height: 93vh;
+  padding: 20px 0;
+  z-index: -500;
+}
+.profile>h2{
+  background-color: rgba(30,35,40,1);
+  color: white;
+  padding: 10px 0;
+}
+.profile>h2>span{
+  text-align: center;
+  display: inline-block;
+}
+.profile>h2>span:first-child{
+  width: 20%;
+  border-right: 1px solid black;
+}
+.profile>h2>span:last-child{
+  width: 80%;
+}
+.profile>div.container{
+  display: flex;
+  width: 100%;
+  min-height: 75vh;
+  margin: 20px 0;
+}
+.profile>div.container>.menu{
+  width: 20%;
+  border-right: 1px solid black;
+}
+.profile>div.container>.details{
+  width: 80%;
+}
+

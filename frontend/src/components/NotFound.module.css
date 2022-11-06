@@ -1,0 +1,21 @@
+.not_found{
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 100%;
+  height: 93vh;
+  background-color: black;
+  z-index: -500;
+}
+.not_found>h1{
+  text-align: center;
+  color: white;
+  line-height: 60vh;
+  font-size: 60px;
+}
+@media screen and (max-width:700px) {
+  .not_found>h1{
+    font-size: 40px;
+    line-height: 70vh;
+  }
+}
